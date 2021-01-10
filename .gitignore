@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+app/debug/
+app/x64/
+app/release/
+app/qdraw.vcxproj.user
+app/qdraw.vcxproj.filters
+
+.vs/
+.qmake.stash
+qdraw.pro.user
+qtpropertybrowser/lib/
