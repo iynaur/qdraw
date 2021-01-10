@@ -85,7 +85,8 @@ DrawScene::DrawScene(QObject *parent)
     m_view = NULL;
     m_dx=m_dy=0;
     m_grid = new GridTool();
-    QGraphicsItem * item = addRect(QRectF(0,0,0,0));
+    //why this dummy item cause errors?
+    QGraphicsItem * item = addRect(QRectF(0,0,10,10));
     item->setAcceptHoverEvents(true);
 
 }

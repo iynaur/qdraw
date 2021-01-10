@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qdraw", "app\qdraw.vcxproj", "{4FDEC1C7-54DE-3C55-A780-30CE89A47FE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FDEC1C7-54DE-3C55-A780-30CE89A47FE2}.Debug|x64.ActiveCfg = Debug|x64
+		{4FDEC1C7-54DE-3C55-A780-30CE89A47FE2}.Debug|x64.Build.0 = Debug|x64
+		{4FDEC1C7-54DE-3C55-A780-30CE89A47FE2}.Release|x64.ActiveCfg = Release|x64
+		{4FDEC1C7-54DE-3C55-A780-30CE89A47FE2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {8FF3D76E-6EB1-415C-9838-EF998FD3B368}
+	EndGlobalSection
+EndGlobal
