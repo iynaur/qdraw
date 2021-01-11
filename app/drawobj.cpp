@@ -1277,8 +1277,9 @@ void GraphicsPolygonItem::control(int dir, const QPointF &delta)
 {
     QPointF pt = mapFromScene(delta);
     if ( dir <= Left ) return ;
-    m_points[dir - Left -1] = pt;
+
     prepareGeometryChange();
+    m_points[dir - Left -1] = pt;
     m_localRect = m_points.boundingRect();
     m_width = m_localRect.width();
     m_height = m_localRect.height();
