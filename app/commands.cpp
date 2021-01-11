@@ -108,7 +108,6 @@ AddShapeCommand::AddShapeCommand(QGraphicsItem *item,
 
 AddShapeCommand::~AddShapeCommand()
 {
-    return;
     if (!myDiagramItem->scene())
         delete myDiagramItem;
 }
