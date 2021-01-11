@@ -463,7 +463,9 @@ void RectTool::mouseMoveEvent(QGraphicsSceneMouseEvent *event, DrawScene *scene)
 {
     setCursor(scene,Qt::CrossCursor);
 
+    scene->blockSignals(true);
     selectTool.mouseMoveEvent(event,scene);
+    scene->blockSignals(false);
 }
 
 void RectTool::mouseReleaseEvent(QGraphicsSceneMouseEvent *event, DrawScene *scene)
