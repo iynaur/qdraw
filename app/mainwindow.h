@@ -103,7 +103,7 @@ private:
     // update ui
     QTimer      m_timer;
     // toolbox
-    QToolBox *toolBox;
+//    QToolBox *toolBox;
     // edit toolbar;
     QToolBar * editToolBar;
     // align toolbar
@@ -170,7 +170,7 @@ private:
     ObjectController *propertyEditor;
     QObject *theControlledObject;
 
-    QListWidget    *listView;
+//    QListWidget    *listView;
 
     QUndoStack *undoStack;
     QUndoView *undoView;

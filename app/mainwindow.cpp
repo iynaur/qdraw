@@ -40,7 +40,7 @@ MainWindow::MainWindow(QWidget *parent)
     createActions();
     createMenus();
     createToolbars();
-    createToolBox();
+    //createToolBox();
     createPropertyEditor();
 
     newFile();
@@ -65,6 +65,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::createToolBox()
 {
+#if 0
     QDockWidget *dock = new QDockWidget(this);
     addDockWidget(Qt::LeftDockWidgetArea, dock);
 
@@ -83,7 +84,7 @@ void MainWindow::createToolBox()
 
     listView->addItem(new QListWidgetItem(icon,tr("Rectangle")));
     listView->addItem(new QListWidgetItem(icon1,tr("RoundRect")));
-
+#endif
 }
 
 DrawView *MainWindow::activeMdiChild()
