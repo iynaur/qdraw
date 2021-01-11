@@ -3,3 +3,4 @@ SUBDIRS += \
     app \
     qtpropertybrowser\
 
+CONFIG += console
